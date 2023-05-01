@@ -137,6 +137,7 @@ nav ul li {
     width: 49.75%; 
     margin-top: 2px;
     height: 150px;   
+    position: relative;
 }
 
 .halfImage img {
@@ -177,6 +178,20 @@ nav ul li {
     background-color: beige;
     text-align: center;
     line-height: 1;
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 5px;
+    left: 2px;
+    border-block-color: white;
+    color:black;
+    width: 30%;
+    height: 23%;
+    background-color: beige;
+    text-align: center;
+    line-height:1;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .footer {
